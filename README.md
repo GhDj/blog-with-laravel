@@ -1,4 +1,4 @@
-# laravel-blog v0.3 (without theme)
+# laravel-blog v0.5
 
 
 Simple blog system with admin section
@@ -9,3 +9,12 @@ Simple blog system with admin section
 1. php artisan migrate
 2. php artisan db:seed
 3. user & pass : admin & admin123
+
+
+
+#TODO:
+- [X] default theme
+- [ ] Profile section
+- [ ] Fix validation issues
+- [ ] Support for multi-theme
+
