@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e6568ccdc896d15d7e756dd2680f465b",
-    "content-hash": "58527fc3f70f158be3d5d45ea27b0d61",
+    "hash": "71faa18c857418e17f8537f056bd5d35",
+    "content-hash": "e003e4b983f2879e82115f8f09aca9bd",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -367,41 +367,6 @@
                 "tokenizer"
             ],
             "time": "2015-12-05 17:17:57"
-        },
-        {
-            "name": "larapack/config-writer",
-            "version": "v1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/larapack/config-writer.git",
-                "reference": "b36a716833240fe9e8b4b4d007b68ef9e91a1124"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/larapack/config-writer/zipball/b36a716833240fe9e8b4b4d007b68ef9e91a1124",
-                "reference": "b36a716833240fe9e8b4b4d007b68ef9e91a1124",
-                "shasum": ""
-            },
-            "type": "package",
-            "autoload": {
-                "psr-4": {
-                    "": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Save changes to the configuration file in script.",
-            "keywords": [
-                "config",
-                "larapack",
-                "laravel",
-                "package",
-                "save",
-                "writer"
-            ],
-            "time": "2016-04-28 12:45:27"
         },
         {
             "name": "laravel/framework",

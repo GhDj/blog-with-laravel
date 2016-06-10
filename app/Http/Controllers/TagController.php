@@ -45,7 +45,7 @@ class TagController extends Controller
     {
         $tags = Tag::where('slug', '=', $slug)->get();
         $posts = $tags[0]->posts()->paginate();
-        return view('tags.index')->with('posts', $posts);
+        return view('tags.index')->with('posts', $posts)->with('tag', $slug);
     }
 
     /**

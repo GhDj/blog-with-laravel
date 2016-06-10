@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url("../fonts/Thin_Line_Font.otf") format("opentype");
+
+}
+
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+
+
+header{
+    background: #219600;
+    position: relative;
+    height: 350px;
+    color: white;
+}
+
+.blog-header {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0 0 8px #fff;
+    font-family: MyWebFont;
+    font-weight: 800;
+    font-size: 550%;
+}
+
+
+
+
+
+.trigger {
+    position: absolute;
+}
+
+.st-menu>ul {
+    font-size: 100%;
+}
+
+nav>ul>li{
+    float: none;
+}
+
+
+nav {
+    line-height: 18px;
+}

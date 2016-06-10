@@ -49,6 +49,16 @@ Route::group(['middleware' => 'auth'], function () {
             Route::get('edit/{id}', 'UserController@edit');
             Route::post('update/{id}', 'UserController@update');
         });
+
+        Route::group(['prefix' => 'settings', 'as' => 'settings::'], function () {
+            Route::get('', 'SettingController@index');
+            Route::post('save', 'SettingController@save');
+        });
+        Route::group(['prefix' => 'profile', 'as' => 'profile::'], function () {
+            Route::get('', 'ProfileController@index');
+        });
+
+
     });
 
 
@@ -63,3 +73,9 @@ Route::get('/c/{slug}', 'CategoryController@show');
 Route::get('/t/{slug}', 'TagController@show');
 
 
+
+
+
+Route::get('test', function () {
+    return view('test');
+});

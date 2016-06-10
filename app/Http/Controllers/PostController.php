@@ -21,7 +21,7 @@ class PostController extends Controller
     {
         $categories = Category::all();
         $tags = Tag::all();
-        $posts = Post::where('status', '=', 'publish')->paginate(6);
+        $posts = Post::where('status', '=', 'publish')->paginate(5);
         return view('posts')->with('posts', $posts)->with('categories', $categories)->with('tags', $tags);
     }
 
